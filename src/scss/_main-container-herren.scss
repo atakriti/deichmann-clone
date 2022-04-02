@@ -1,5 +1,5 @@
 main{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     .baner{
         padding: 3% 0;
@@ -42,6 +42,7 @@ main{
     .shoes-sorts{
         width: 100%;
          overflow: scroll;
+         margin: 3% 0;
         h1{
             font-size: $card-font-size;
         }
@@ -79,4 +80,48 @@ main{
         }
             
     }
+    // ==================== Zuletzt angesehen =======================
+    .zuletzt-angesehen{
+        margin: 4% 0;
+        h1{
+            font-size: $card-font-size;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            background-color: $card-bg;
+            padding: 1%;
+            margin-top: 1%;
+            span{
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 2%;
+                i{
+                    font-size: $card-font-size;
+                    color: white;
+                    -webkit-text-stroke: 0.1vw black;
+                }
+            }
+            a{
+                img{
+                    width: 100%;
+                }
+            }
+            b{
+                font-size: $card-font-size;
+                color: $price-color;
+            }
+            p{
+                font-size: $card-font-size;
+                margin: 2% 0;
+            }
+            small{
+                font-size: $fs;
+                font-weight: bold;
+            }
+
+        }
+    }
+    // ================= baner2 ================
 }

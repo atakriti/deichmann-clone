@@ -1,6 +1,7 @@
 main{
     width: 80%;
     margin: 0 auto;
+    position: relative;
     .baner{
         padding: 3% 0;
         a{
@@ -19,6 +20,7 @@ main{
     // ================ Sneakers Styles ============
     .sneakers-styles{
         margin: 4% 0;
+        padding: 2% 0;
         h1{
             font-size: $card-font-size;
         }
@@ -43,6 +45,7 @@ main{
         width: 100%;
          overflow: scroll;
          margin: 3% 0;
+         padding: 2% 0;
         h1{
             font-size: $card-font-size;
         }
@@ -132,4 +135,6 @@ main{
             }
         }
     }
+    // =============== up btn =================
+    
 }

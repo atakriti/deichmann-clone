@@ -1,0 +1,65 @@
+footer{
+    background-color: $card-bg;
+    width: 100%;
+    padding: 3% 0;
+    position: relative;
+    .footer-top{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        div{
+            width: 24%;            
+            display: flex;
+            flex-direction: column;
+            line-height: 2vw;
+            h1{
+                font-size: $card-font-size;
+                margin-bottom: 4%;
+            }
+            p{
+                font-size: $fs;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: $fs;
+                i{
+                    color: white;
+                    -webkit-text-stroke: 0.1vw black;
+                    margin-right: 2%;
+                }
+            }
+            .tel{
+                color: rgb(1, 68, 107);
+            }
+        }
+    }
+    .up-btn{
+        width: fit-content;
+        padding: 3%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        position: fixed;
+        animation: up 1s alternate infinite;
+       a{
+           color: green;
+        i{
+            font-size: 2.5vw;
+            background-color: rgba(128, 128, 128, 0.082);
+            padding: 1vw;
+            border-radius: 50%;
+        }
+       }
+    }
+}
+@keyframes up {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.9);
+    }
+}

@@ -28,6 +28,10 @@ header{
                 justify-content: space-around;
                 align-items: center;
                 padding: 1%;
+                .herren,.kinder{
+                    border-bottom: 0.2vw red solid;
+                    color: red;
+                }
                 &:nth-child(2){
                     width: 30%;
                 }
@@ -57,11 +61,13 @@ header{
             display: flex;
             justify-content: space-between;
             align-items: center;
+           
             li{
             list-style: none;
             width: 15%;
             display: flex;
             justify-content: center;
+            
             a{
                 text-decoration: none;
                 color: black;

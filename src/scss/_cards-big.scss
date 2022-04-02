@@ -5,6 +5,7 @@ main{
         display: flex;
         justify-content: space-between;
             align-items: baseline;
+            margin: 4% 0;
             &::-webkit-scrollbar{
                 width: 0vw;
                 height: 0.5vw;
@@ -47,13 +48,20 @@ main{
                         display: flex;
                         justify-content: center;
                         img{
-                            width: 15vw;
+                            width: 17vw;
                         }
                     }
                     b{
                         font-size: $card-font-size;
                         color: $price-color;
                         margin: 3% 0;
+                    }
+                    .red{
+                        color: red;
+                        del{
+                            color: rgb(153, 153, 153);
+                            font-weight: lighter;
+                        }
                     }
                     p{
                         font-size: calc($card-font-size - 0.2vw);
@@ -71,26 +79,17 @@ main{
                         i{
                             font-size: $fs;
                         }
+                        .gray-stars{
+                            color: rgb(202, 202, 202);
+                        }
                     }
                    
                   
 
                 }
-                &:nth-child(n+5):nth-child(-n+6){
-                    .shoe-container{
-                        .stars{
-                            visibility: hidden;
-                        }
-                    }
-                }
-                &:nth-child(8){
-                    
-                    .shoe-container{
-                        .stars{
-                            visibility: hidden;
-                        }
-                    }
-                }
+               .hidden-stars{
+                   visibility: hidden;
+               }
                 // ======== lonely heart ===========
                 .lonely-heart{
                     display: flex;

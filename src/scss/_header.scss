@@ -1,0 +1,91 @@
+header{
+    .logo-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+        padding: 0.7% 0;
+
+        // logo------------------
+        .logo{
+            width: 20%;
+            display: flex;
+
+            img{
+                width: 100%;
+            }
+        }
+        // right ------------------
+        .header-right{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            span{
+                width: 50%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 1%;
+                &:nth-child(2){
+                    width: 30%;
+                }
+                a{
+                    font-size: $fs;
+                    text-decoration: none;
+                    color: black;
+                    i{
+                        font-size: calc($fs + 0.1vw);
+                        color: white;
+                        -webkit-text-stroke: 0.1vw rgb(0, 0, 0);
+                    }
+                }
+            }
+        }
+
+    }
+    // ================ nav===================
+    nav{
+        border-top: 0.1vw rgb(199, 199, 199) solid;
+        border-bottom: 0.1vw rgb(199, 199, 199) solid;
+        padding: 0.6% 0;
+        ul{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li{
+            list-style: none;
+            width: 8%;
+            display: flex;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: $fs;
+            }
+            }
+            form{
+                width: 30%;
+                display: inline-flex;
+                align-items: center;
+                background-color: rgb(248, 248, 248);
+                
+                input{
+                    width: 100%;
+                    font-size: $fs;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    padding: 2% 0;
+                }
+                i{
+                    font-size: calc($fs + 0.1vw);
+                    padding: 3%;                   
+                }
+            }
+        }
+    }
+}

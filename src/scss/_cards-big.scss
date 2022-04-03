@@ -47,9 +47,12 @@ main{
                     width: 100%;
                     a{
                         display: flex;
-                        justify-content: center;
+                        // justify-content: center;
+                        border: 1px red solid;
+                    
                         img{
                             width: 17vw;
+                            height: 100%;
                         }
                     }
                     b{

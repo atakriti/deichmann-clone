@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="./images/icon.png">
+    <title>Deichmann-Clone</title>
+</head>
+<body >
+    <!-- ================ Header =============== -->
+    <header id="up">
+        <div class="logo-section">
+            <a class="logo" href="#"><img src="./images/logo-deichmann.svg" alt=""></a>
+            <div class="header-right">
+                <span class="mobile-hidden">
+                    <a href="#">DAMEN</a>
+                    <a class="herren" href="#">HERREN</a>
+                    <a  target="_blank" href="./kinder.html">KINDER</a>
+                </span>
+                <span>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <div onclick="btn()" class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                <li><a href="#schuhe">Schuhe Marken</a></li>
+                <li><a href="#sneakrs-styles">Sneaker Styles</a></li>
+                <li><a href="#entdecke">Entdecke mehr</a></li>
+                <li><a href="#skechers">Skechers</a></li>
+                <li><a href="#about">About</a></li>
+                <form action="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Lieblingsschuhe finden" type="search" name="search" id="1">
+                </form>
+            </ul>
+        </nav>
+    </header>
+    <!-- ============== main ============= -->
+    <main onclick="main()">
+        <!-- ===================== list-mobile =========== -->
+        <div id="list" class="list-mobile">
+            
+            <ul>
+                <li onclick="sectionBtn()" class="herren-mobile"><a href="#">Herren</a></li>
+                <li onclick="sectionBtn()" ><a href="./kinder.html">Kinder</a></li>
+            </ul>
+        </div>
+        <!-- ============= baner =========== -->
+        <div class="baner">
+            <a class="baner-main" href="#"><img src="./images/baner.jpg" alt=""></a>
+            <a class="responsove-baner" ><img src="./images/responsive-baner.jpg" alt=""></a>
+            <a class="baner-main" href="#"><img src="./images/baner1.jpg" alt=""></a>
+            <a class="responsove-baner"><img src="./images/responsive-baner1.jpg" alt=""></a>
+        </div>
+        <!-- ============== cards =================== -->
+        <div id="schuhe" class="cards-big">
+            <div class="card-big-container">
+                <!-- =======1========= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i>
+                    </span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe1.webp" alt=""></a>
+                        <b>39,99 €</b>
+                        <p>Sneaker</p>
+                        <small>BENCH</small>
+                        <div class="stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star gray-stars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======2========= -->
+                <div>
+                    <span><h2>Online Exklusiv</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe2.webp" alt=""></a>
+                        <b>49,99 €</b>
+                        <p>Sneaker PUMA SHUFFLE</p>
+                        <small>PUMA</small>
+                        <div class="stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- =======3======== -->
+                <div>
+                    <span><h2>Online Exklusiv</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe3.webp" alt=""></a>
+                        <b>49,99 €</b>
+                        <p>Sneakers VS PACE</p>
+                        <small>ADIDAS</small>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star gray-stars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======4========= -->
+                <div>
+                    <span><h2>Nachhaltig</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe4.webp" alt=""></a>
+                        <b>69,99 €</b>
+                        <p>Sneakers COURT VISION BE</p>
+                        <small>NIKE</small>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========5======= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe5.webp" alt=""></a>
+                        <b>49,99 €</b>
+                        <p>Sneaker</p>
+                        <small>SKECHERS</small>
+                        <div  class="stars hidden-stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========6======= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe6.webp" alt=""></a>
+                        <b>39,99 €</b>
+                        <p>Sneaker</p>
+                        <small>FILA</small>
+                        <div  class="stars hidden-stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- =======7======== -->
+                <div>
+                    <span class="lonely-heart"><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe7.webp" alt=""></a>
+                        <b>54,99 €</b>
+                        <p>Sneaker LITE RACER 3.0</p>
+                        <small>ADIDAS</small>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- =========8====== -->
+                <div>
+                    <span><h2>Online Exklusiv</h2><i class="fa-solid fa-heart"></i> </span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/shoe8.webp" alt=""></a>
+                        <b>59,99 €</b>
+                        <p>Sneaker</p>
+                        <small>SKECHERS</small>
+                        <div class="stars hidden-stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- =============== Sneakers styles ============= -->
+        <div id="sneakrs-styles" class="sneakers-styles">
+            <h1>Die Sneaker-Styles der Saison</h1>
+            <p>Neue Modelle von unseren Sportmarken</p>
+            <div>
+                <a href="#"><img src="./images/adidas.jpg" alt=""></a>
+                <a href="#"><img src="./images/nike.jpg" alt=""></a>
+                <a href="#"><img src="./images/fila.jpg" alt=""></a>
+                <a href="#"><img src="./images/puma.jpg" alt=""></a>
+            </div>
+        </div>
+        <!-- ================= shoes-sorts ================= -->
+        <div id="entdecke" class="shoes-sorts">
+            <h1>Entdecke unsere Vielfalt</h1>
+            <p>Schuhe von klassischn bis trendig</p>
+            <div class="shoes-sorts-container">
+                <!-- ==========1============= -->
+                <div>
+                    <a href="#"><img src="./images/laufschuhe.jpg" alt=""></a>
+                    <p>Laufschuhe</p>
+                </div>
+                <!-- ==========2============= -->
+                <div>
+                    <a href="#"><img src="./images/training.jpg" alt=""></a>
+                    <p>Trainingsschuhe</p>
+                </div>
+                <!-- ==========3============= -->
+                <div>
+                    <a href="#"><img src="./images/wender.jpg" alt=""></a>
+                    <p>Wander-& Trekkingschuhe</p>
+                </div>
+                <!-- ==========4============= -->
+                <div>
+                    <a href="#"><img src="./images/sneaker.jpg" alt=""></a>
+                    <p>Sneaker</p>
+                </div>
+                <!-- ==========5============= -->
+                <div>
+                    <a href="#"><img src="./images/hihe.jpg" alt=""></a>
+                    <p>Hohe Sneakers</p>
+                </div>
+                <!-- ==========6============= -->
+                <div>
+                    <a href="#"><img src="./images/halb.jpg" alt=""></a>
+                    <p>Halbschuhe</p>
+                </div>
+                <!-- ==========7============= -->
+                <div>
+                    <a href="#"><img src="./images/sandeln.jpg" alt=""></a>
+                    <p>Sandalen</p>
+                </div>
+                <!-- ==========8============= -->
+                <div>
+                    <a href="#"><img src="./images/buiseness.jpg" alt=""></a>
+                    <p>Business Schuhe</p>
+                </div>
+                <!-- ==========9============= -->
+                <div>
+                    <a href="#"><img src="./images/panto.jpg" alt=""></a>
+                    <p>Pantoletten</p>
+                </div>
+                <!-- ==========10============= -->
+                <div>
+                    <a href="#"><img src="./images/bad.jpg" alt=""></a>
+                    <p>Badeschuhe</p>
+                </div>
+                <!-- ==========11============= -->
+                <div>
+                    <a href="#"><img src="./images/haus.jpg" alt=""></a>
+                    <p>Hausschuhe</p>
+                </div>
+                <!-- ==========12============= -->
+                <div>
+                    <a href="#"><img src="./images/hallen.jpg" alt=""></a>
+                    <p>Hallenschuhe</p>
+                </div>
+            </div>
+        </div>
+        <!-- ================== zuletzt angesehen =============== -->
+        <div class="zuletzt-angesehen">
+            <h1>Zuletzt angesehen</h1>
+            <div>
+                <span><i class="fa-solid fa-heart"></i></span>
+                <a href="#"><img src="./images/zuletzt.webp" alt=""></a>
+                <b>49,99 €</b>
+                <p>Hoodie</p>
+                <small>PUMA</small>
+            </div>
+        </div>
+        <!-- ================== baner2 ================ -->
+        <div id="skechers" class="baner2">
+            <a class="baner-main" href="#"><img src="./images/baner2.jpg" alt=""></a>
+            <a class="responsove-baner" href="#"><img src="./images/baner2-responsive.jpg" alt=""></a>
+        </div>
+        <!-- ================= cards-big-2 ================ -->
+        <div class="cards-big">
+            <div class="card-big-container">
+                <!-- =======1========= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i>
+                    </span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/1.webp" alt=""></a>
+                        <b>54,99 €</b>
+                        <p>Sneaker</p>
+                        <small>SKECHERS</small>
+                        <div class="stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======2========= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/2.webp" alt=""></a>
+                        <b class="red">49,99 € <del>59,99 €</del></b>
+                        <p>Sneaker</p>
+                        <small>SKECHERS</small>
+                        <div class="stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star gray-stars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- =======3======== -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/3.webp" alt=""></a>
+                        <b class="red">54,99 € <del>64,99 €</del></b> 
+                        <p>Sneakers</p>
+                        <small>SKECHERS</small>
+                        <div class="stars hidden-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i  class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======4========= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/4.webp" alt=""></a>
+                        <b>49,99 €</b>
+                        <p>Sneakers</p>
+                        <small>SKECHERS</small>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========5======= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/5.webp" alt=""></a>
+                        <b class="red">59,99 € <del>69,99 €</del></b>
+                        <p>Sneaker</p>
+                        <small>SKECHERS</small>
+                        <div  class="stars hidden-stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========6======= -->
+                <div>
+                    <span><h2>Neu</h2><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/6.webp" alt=""></a>
+                        <b>64,99 €</b>
+                        <p>Sneaker</p>
+                        <small>SKECHERS</small>
+                        <div  class="stars hidden-stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- =======7======== -->
+                <div>
+                    <span class="lonely-heart"><i class="fa-solid fa-heart"></i></span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/7.webp" alt=""></a>
+                        <b>49,99 €</b>
+                        <p>Sneaker</p>
+                        <small>SKECHERS</small>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- =========8====== -->
+                <div>
+                    <span class="lonely-heart"><i class="fa-solid fa-heart"></i> </span>
+                    <div class="shoe-container">
+                        <a href="#"><img src="./images/8.webp" alt=""></a>
+                        <b>59,99 €</b>
+                        <p>Slipper</p>
+                        <small>SKECHERS</small>
+                        <div class="stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star gray-stars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <!-- ================= Footer ================= -->
+    <footer id="about">
+        <div class="footer-top">
+            <!-- 1 -->
+            <div>
+                <h1>Kundenservice</h1>
+                <p>Mo. - Fr. von 08:00 bis 20:00 Uhr</p>
+                <p>Sa. von 09:00 bis 18:00 Uhr</p>
+                <a class="tel" href="tel:08005020500"><i class="fa-solid fa-phone"></i>08005020500</a>
+                <a class="tel" href="mailto:info@deichmann.com"><i class="fa-solid fa-envelope"></i>info@deichmann.com</a>
+                <a class="tel" target="_blank" href="https://de-de.facebook.com/Deichmann/"><i class="fa-brands fa-facebook-f"></i>Deichmann auf Facebook</a>
+            </div>
+            <!-- 2 -->
+            <div>
+                <h1>Unsere Filialen</h1>
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Filiale finden</a>
+            </div>
+            <!-- 3 -->
+            <div>
+                <h1>Hilfe</h1>
+                <a href="#">Artikel zurückschicken</a>
+                <a href="#">Alle Hilfethemen</a>
+                <a href="#">Bestellung</a>
+                <a href="#">Zahlung</a>
+                <a href="#">Mein Konto</a>
+                <a href="#">Rückgabe & Rückerstattung</a>
+                <a href="#">Lieferung & Versand</a>
+            </div>
+            <!-- 4 -->
+            <div>
+                <h1>Über DEICHMANN</h1>
+                <a href="#">Unternehmen</a>
+                <a href="#">Karriere</a>
+                <a href="#">Presse</a>
+                <a href="#">Partnerprogramm</a>
+                <a href="#">Newsletter</a>
+            </div>
+        </div>
+        <!-- ================ up btn  -->
+        <div  class="up-btn">
+            <a href="#up"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+    <script src="./javaScript/main.js"></script>
+</body>
+</html>

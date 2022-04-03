@@ -47,6 +47,13 @@ header nav {
   border-top: 0.1vw rgb(199, 199, 199) solid;
   border-bottom: 0.1vw rgb(199, 199, 199) solid;
   padding: 0.6% 0;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+header nav .hamburger {
+  display: none;
 }
 header nav ul {
   width: 70%;
@@ -54,9 +61,6 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-header nav ul .hamburger {
-  display: none;
 }
 header nav ul li {
   list-style: none;
@@ -69,14 +73,14 @@ header nav ul li a {
   color: black;
   font-size: 0.9vw;
 }
-header nav ul form {
+header nav form {
   width: 30%;
   display: inline-flex;
   align-items: center;
   background-color: rgb(248, 248, 248);
   border: 0.1vw rgb(199, 199, 199) solid;
 }
-header nav ul form input {
+header nav form input {
   width: 100%;
   font-size: 0.9vw;
   background-color: transparent;
@@ -84,9 +88,17 @@ header nav ul form input {
   outline: none;
   padding: 2% 0;
 }
-header nav ul form i {
-  font-size: 1vw;
+header nav form button {
   padding: 3%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav form button i {
+  font-size: 1vw;
 }
 
 main {
@@ -403,28 +415,28 @@ footer .up-btn a i {
   }
   header nav {
     padding: 1% 2%;
+    width: 100%;
+  }
+  header nav .hamburger {
+    display: block;
+    width: 20%;
+  }
+  header nav .hamburger i {
+    font-size: 8.8vw;
   }
   header nav ul {
     width: 100%;
     margin: 0;
-  }
-  header nav ul .hamburger {
-    display: block;
-  }
-  header nav ul .hamburger i {
-    font-size: 8.8vw;
-  }
-  header nav ul li {
     display: none;
   }
-  header nav ul form {
-    width: 80%;
+  header nav form {
+    width: 75%;
   }
-  header nav ul form input {
-    font-size: 2.8vw;
+  header nav form input {
+    font-size: 3.3vw;
   }
-  header nav ul form i {
-    font-size: 2.8vw;
+  header nav form button i {
+    font-size: 3.8vw;
   }
 
   main {

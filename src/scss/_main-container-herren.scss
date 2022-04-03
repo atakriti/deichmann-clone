@@ -11,7 +11,8 @@ main{
             display: flex;
             margin-bottom: 5%;
             img{
-                width: 100%;                
+                width: 100%;   
+                height: 100%;             
             }
         }
         // =============== Responsive baner =============
@@ -38,7 +39,6 @@ main{
             a{
                 width: 24%;
                 display: flex;
-                border: 2px red solid;
                 img{
                     width: 100%;
                     height: 100%;
@@ -141,6 +141,7 @@ main{
         a{
             img{
                 width: 100%;
+                height: 100%;
             }
         }
         .responsove-baner{

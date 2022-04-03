@@ -557,6 +557,7 @@ footer .up-btn a i {
     animation-delay: 1s;
     animation-fill-mode: forwards;
     visibility: hidden;
+    border-radius: 10px;
   }
   main .list-mobile ul li a {
     padding: 7% 5%;
@@ -570,10 +571,18 @@ footer .up-btn a i {
     animation-fill-mode: forwards;
   }
   main .list-mobile ul .herren-mobile {
-    background-color: red;
+    background-color: transparent;
+    border: 0.5vw green solid;
+  }
+  main .list-mobile ul .herren-mobile a {
+    color: black;
   }
   main .list-mobile ul .kinder-mobile {
-    background-color: red;
+    background-color: transparent;
+    border: 0.5vw green solid;
+  }
+  main .list-mobile ul .kinder-mobile a {
+    color: black;
   }
 
   footer .footer-top {

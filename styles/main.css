@@ -137,7 +137,6 @@ main .sneakers-styles div {
 }
 main .sneakers-styles div a {
   width: 24%;
-  display: flex;
 }
 main .sneakers-styles div a img {
   width: 100%;

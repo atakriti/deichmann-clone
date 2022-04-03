@@ -55,15 +55,20 @@ header{
         border-top: 0.1vw rgb(199, 199, 199) solid;
         border-bottom: 0.1vw rgb(199, 199, 199) solid;
         padding: 0.6% 0;
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+        .hamburger{
+            display: none;
+        }
         ul{
             width: 70%;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .hamburger{
-                display: none;
-            }
+            
            
             li{
             list-style: none;
@@ -77,24 +82,34 @@ header{
                 font-size: $fs;
             }
             }
-            form{
-                width: 30%;
-                display: inline-flex;
+            
+        }
+        form{
+            width: 30%;
+            display: inline-flex;
+            align-items: center;
+            background-color: rgb(248, 248, 248);
+            border: 0.1vw rgb(199, 199, 199) solid;
+            
+            input{
+                width: 100%;
+                font-size: $fs;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                padding: 2% 0;
+            }
+            button{
+                padding: 3%;
+                background-color: transparent;
+                border: none;
+                outline: none;   
+                display: flex;
+                justify-content: center;
                 align-items: center;
-                background-color: rgb(248, 248, 248);
-                border: 0.1vw rgb(199, 199, 199) solid;
-                
-                input{
-                    width: 100%;
-                    font-size: $fs;
-                    background-color: transparent;
-                    border: none;
-                    outline: none;
-                    padding: 2% 0;
-                }
                 i{
                     font-size: calc($fs + 0.1vw);
-                    padding: 3%;                   
+                                   
                 }
             }
         }

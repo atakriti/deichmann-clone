@@ -25,28 +25,30 @@
         // =================== Nav ================
         nav{
             padding: 1% 2%;
+            width: 100%;
+            .hamburger{
+                display: block;
+                width: 20%;
+                i{
+                    font-size: calc($header-icons + 5vw);
+                }
+            }
             ul{
                 width: 100%;
                 margin: 0;
-
-                .hamburger{
-                    display: block;
-                    i{
-                        font-size: calc($header-icons + 5vw);
-                    }
+                display: none;
+                
+            }
+            form{
+                width: 75%;
+                input{
+                    font-size: calc($fs-mob + 0.5vw);
                 }
-                li{
-                    display: none;
+               button{
+                i{
+                    font-size: calc($fs-mob + 1vw);
                 }
-                form{
-                    width: 80%;
-                    input{
-                        font-size: $fs-mob;
-                    }
-                    i{
-                        font-size: $fs-mob;
-                    }
-                }
+               }
             }
         }
     }

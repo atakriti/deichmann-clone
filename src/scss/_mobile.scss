@@ -4,10 +4,10 @@
             width: 100%;
             padding: 1% 2%;
             .logo{
-                width: 50%;
+                width: 60%;
             }
             .header-right{
-                width: 50%;
+                width: 40%;
                 justify-content: flex-end;
                 .mobile-hidden{
                     display: none;
@@ -16,7 +16,7 @@
                    width: 80% !important;                    
                     a{
                         i{
-                            font-size: $header-icons;
+                            font-size: calc($header-icons + 0.7vw);
                         }
                     }
                 }
@@ -32,14 +32,14 @@
                 .hamburger{
                     display: block;
                     i{
-                        font-size: $header-icons;
+                        font-size: calc($header-icons + 5vw);
                     }
                 }
                 li{
                     display: none;
                 }
                 form{
-                    width: 50%;
+                    width: 80%;
                     input{
                         font-size: $fs-mob;
                     }
@@ -172,7 +172,54 @@
                 display: none;
             }
         }
+        // ======================== list-mobile ==============
+        .list-mobile{
+            
+            background-color: white;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+           height: 7%;
+           display: none;
+            animation: listDown 2s;
+           
+        ul{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            li{
+                background-color:rgb(32, 119, 32) ;
+                animation: li 2s;
+                animation-delay: 1s;
+                animation-fill-mode:forwards;
+                visibility: hidden;
+                a{
+                    padding: 7% 5%;
+                    display: flex;
+                    font-size: 5vw;
+                    text-decoration: none;
+                    color: white;
+                    animation: ankor 2s ;
+                animation-delay: 2s;
+
+                    visibility: hidden;
+                animation-fill-mode:forwards;
+
+                }
+            }
+            .herren-mobile{
+                background-color: red;
+            }
+            .kinder-mobile{
+                background-color: red;
+            }
+        }
         
+          
+          
+        }
     }
     // ================= footer ===============
     footer{
@@ -203,5 +250,50 @@
                 }
             }
         }
+    }
+}
+@keyframes listDown {
+    from{
+         height: 2%;
+        opacity: 0.7;
+        
+    }
+    to{
+         height: 7%;
+      opacity: 1;
+     
+
+    }
+}
+@keyframes ankor {
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(0);
+        
+        visibility: visible;
+    }
+}
+// @keyframes listUp {
+//     from{
+//         height: 5%;
+//         opacity: 1;
+//     }
+//     to{
+//         height: 0%;
+       
+//     }
+// }
+@keyframes li {
+    from{
+        transform:translateX(-100%);
+        // opacity: 0;
+        
+    }
+    to{
+        transform:translateX(0);
+         visibility: visible;
+        
     }
 }

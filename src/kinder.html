@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="./styles/main.css">
     <title>Kinder</title>
 </head>
-<body>
+<body >
     <header id="up">
         <div class="logo-section">
             <a class="logo" href="#"><img src="./images/logo-deichmann.svg" alt=""></a>
             <div class="header-right">
-                <span>
+                <span class="mobile-hidden">
                     <a href="#">DAMEN</a>
                     <a target="_blank" href="./index.html">HERREN</a>
                     <a class="kinder" href="#">KINDER</a>
@@ -29,6 +29,7 @@
         </div>
         <nav>
             <ul>
+                <div onclick="btn()" class="hamburger"><i class="fa-solid fa-bars"></i></div>
                 <li><a href="#schuhe">Schuhe Marken</a></li>
                 <li><a href="#sneakrs-styles">Sneaker Styles</a></li>
                 <li><a href="#entdecke">Entdecke mehr</a></li>
@@ -42,13 +43,20 @@
         </nav>
     </header>
     <!-- ============= main ============= -->
-    <main>
+    <main onclick="main()">
+         <!-- ===================== list-mobile =========== -->
+         <div id="list" class="list-mobile">
+            <ul>
+                <li onclick="sectionBtn()" ><a href="./index.html">Herren</a></li>
+                <li onclick="sectionBtn()" class="kinder-mobile"><a href="#">Kinder</a></li>
+            </ul>
+        </div>
         <!-- ================= baner ============= -->
         <div class="baner">
-            <a href="#"><img src="./images/kinder/baner.jpg" alt=""></a>
-            <a class="responsove-baner" href="#"><img src="./images/kinder/baner-responsive.jpg" alt=""></a>
-            <a href="#"><img src="./images/kinder/baner1.jpg" alt=""></a>
-            <a class="responsove-baner" href="#"><img src="./images/kinder/baner1-responsive.jpg" alt=""></a>
+            <a class="baner-main" href="#"><img src="./images/kinder/baner.jpg" alt=""></a>
+            <a class="responsove-baner" ><img src="./images/kinder/baner-responsive.jpg" alt=""></a>
+            <a class="baner-main" href="#"><img src="./images/kinder/baner1.jpg" alt=""></a>
+            <a class="responsove-baner"><img src="./images/kinder/baner1-responsive.jpg" alt=""></a>
         </div>
          <!-- ============== cards =================== -->
          <div id="schuhe" class="cards-big">
@@ -267,7 +275,7 @@
         </div>
         <!-- =============== baner2 ============ -->
         <div class="baner2">
-            <a href="#"><img src="./images/kinder/baner2.jpg" alt=""></a>
+            <a class="baner-main" href="#"><img src="./images/kinder/baner2.jpg" alt=""></a>
             <a class="responsove-baner" href="#"><img src="./images/kinder/baner2-responsive.jpg" alt=""></a>
         </div>
          <!-- ================= cards-big-2 ================ -->
@@ -452,5 +460,6 @@
             <a href="#up"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
     </footer>
+    <script src="./javaScript/main.js"></script>
 </body>
 </html>

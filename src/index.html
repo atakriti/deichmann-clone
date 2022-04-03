@@ -9,7 +9,7 @@
     <link rel="icon" href="./images/icon.png">
     <title>Deichmann-Clone</title>
 </head>
-<body>
+<body >
     <!-- ================ Header =============== -->
     <header id="up">
         <div class="logo-section">
@@ -30,7 +30,7 @@
         </div>
         <nav>
             <ul>
-                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                <div onclick="btn()" class="hamburger"><i class="fa-solid fa-bars"></i></div>
                 <li><a href="#schuhe">Schuhe Marken</a></li>
                 <li><a href="#sneakrs-styles">Sneaker Styles</a></li>
                 <li><a href="#entdecke">Entdecke mehr</a></li>
@@ -44,13 +44,21 @@
         </nav>
     </header>
     <!-- ============== main ============= -->
-    <main>
+    <main onclick="main()">
+        <!-- ===================== list-mobile =========== -->
+        <div id="list" class="list-mobile">
+            
+            <ul>
+                <li onclick="sectionBtn()" class="herren-mobile"><a href="#">Herren</a></li>
+                <li onclick="sectionBtn()" ><a href="./kinder.html">Kinder</a></li>
+            </ul>
+        </div>
         <!-- ============= baner =========== -->
         <div class="baner">
             <a class="baner-main" href="#"><img src="./images/baner.jpg" alt=""></a>
-            <a class="responsove-baner" href="#"><img src="./images/responsive-baner.jpg" alt=""></a>
+            <a class="responsove-baner" ><img src="./images/responsive-baner.jpg" alt=""></a>
             <a class="baner-main" href="#"><img src="./images/baner1.jpg" alt=""></a>
-            <a class="responsove-baner" href="#"><img src="./images/responsive-baner1.jpg" alt=""></a>
+            <a class="responsove-baner"><img src="./images/responsive-baner1.jpg" alt=""></a>
         </div>
         <!-- ============== cards =================== -->
         <div id="schuhe" class="cards-big">
@@ -466,5 +474,6 @@
             <a href="#up"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
     </footer>
+    <script src="./javaScript/main.js"></script>
 </body>
 </html>

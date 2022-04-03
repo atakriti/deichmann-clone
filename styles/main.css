@@ -94,8 +94,8 @@ main {
   margin: 0 auto;
   position: relative;
 }
-main .baner {
-  padding: 3% 0;
+main .list-mobile {
+  display: none;
 }
 main .baner a {
   display: flex;

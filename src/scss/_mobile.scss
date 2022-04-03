@@ -197,6 +197,7 @@
                 animation-delay: 1s;
                 animation-fill-mode:forwards;
                 visibility: hidden;
+                border-radius: 10px;
                 a{
                     padding: 7% 5%;
                     display: flex;
@@ -212,10 +213,18 @@
                 }
             }
             .herren-mobile{
-                background-color: red;
+                background-color: transparent;
+                border: 0.5vw green solid;
+                a{
+                    color: black;
+                }
             }
             .kinder-mobile{
-                background-color: red;
+                background-color: transparent;
+                border: 0.5vw green solid;
+                a{
+                    color: black;
+                }
             }
         }
         

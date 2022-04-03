@@ -386,10 +386,10 @@ footer .up-btn a i {
     padding: 1% 2%;
   }
   header .logo-section .logo {
-    width: 50%;
+    width: 60%;
   }
   header .logo-section .header-right {
-    width: 50%;
+    width: 40%;
     justify-content: flex-end;
   }
   header .logo-section .header-right .mobile-hidden {
@@ -399,7 +399,7 @@ footer .up-btn a i {
     width: 80% !important;
   }
   header .logo-section .header-right span a i {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
   header nav {
     padding: 1% 2%;
@@ -412,13 +412,13 @@ footer .up-btn a i {
     display: block;
   }
   header nav ul .hamburger i {
-    font-size: 4.5vw;
+    font-size: 8.8vw;
   }
   header nav ul li {
     display: none;
   }
   header nav ul form {
-    width: 50%;
+    width: 80%;
   }
   header nav ul form input {
     font-size: 2.8vw;

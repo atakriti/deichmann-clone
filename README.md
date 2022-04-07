@@ -46,7 +46,7 @@
 ### Contact
 
 Mail: <anwart256@gmail.com><br>
-GitHub: [yourGHName](https://github.com/atakriti)<br>
+GitHub: [atakriti](https://github.com/atakriti)<br>
 LinkedIn: [your linkedIn](#)
 
 ---

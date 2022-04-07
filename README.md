@@ -15,7 +15,7 @@
 - About Project
   - _Deichmann-Clone_
 - How to use this Project
-  - _first we have two html pages , in desktop we see the underlined title is the Current page , and the "kinder" title navigate us to kinder page.
+  - _We have two html pages , in desktop we see the underlined title is the Current page , and the "kinder" title navigate us to kinder page.
   in Mobile version there is a Hamburger menu instead of the navbar , inside the menu we see the two pages, and the title which has no background is the current page, at the corner right bottom there is a top-arrow which take us to the top of the website._
 - Contact
   - _Mail_

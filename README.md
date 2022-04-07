@@ -62,5 +62,5 @@ LinkedIn: [your linkedIn](#)
 
 Made with ❤️ by me
 ----
-License of Awesome
+License of Awesome <br>
 Code — MIT License

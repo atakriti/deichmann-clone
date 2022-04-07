@@ -4,7 +4,7 @@
 ## Mobile Version
 ![Mobile](./src/images/readme/mobile.gif)
 ----
-## Your App name
+## Deichmann-Clone
 
 **[Test this app yourself](https://atakriti.github.io/deichmann-clone/)**
 

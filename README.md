@@ -1,6 +1,7 @@
 # Deichmann-Clone
 ## Desktop Version
 ![desktop](./src/images/readme/desktop.gif)
+---
 ## Mobile Version
 ![Mobile](./src/images/readme/mobile.gif)
 ----

@@ -1,11 +1,11 @@
+list.style.display = "none"
 function btn() {
   let list = document.getElementById("list");
   if (list.style.display === "none") {
     list.style.display = "block";
     list.style.animationName = "listDown";
   } else {
-    
-     list.style.display = "none";
+    list.style.display = "none"
   }
 }
 
